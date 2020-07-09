@@ -49,4 +49,5 @@ $CSV_CHECKSUM \
 	--noobaa-core-image="$NOOBAA_CORE_IMAGE" \
 	--noobaa-db-image="$NOOBAA_DB_IMAGE" \
 	--ocs-image="$OCS_IMAGE" \
+	--ocs-must-gather-image="$MUST_GATHER_FULL_IMAGE_NAME" \
 	--checksum-outfile="$CSV_CHECKSUM_OUTFILE"

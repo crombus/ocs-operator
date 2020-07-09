@@ -60,6 +60,7 @@ $CSV_MERGER \
 	--noobaa-core-image="$NOOBAA_CORE_IMAGE" \
 	--noobaa-db-image="$NOOBAA_DB_IMAGE" \
 	--ocs-image="$OCS_IMAGE" \
+	--ocs-must-gather-image="$MUST_GATHER_FULL_IMAGE_NAME" \
 	--crds-directory="$OUTDIR_CRDS" \
 	--manifests-directory=$OUTDIR_BUNDLEMANIFESTS \
 	--olm-bundle-directory="$OCS_FINAL_DIR" \
